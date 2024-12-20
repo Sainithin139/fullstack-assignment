@@ -1,0 +1,8 @@
+mkdir complaints-app
+cd complaints-app
+npm init -y
+npm install express mongoose cors body-parser
+npx create-next-app frontend
+cd frontend
+npm install axios
+cd ..
